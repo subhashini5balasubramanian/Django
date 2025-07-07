@@ -1,0 +1,12 @@
+{%extends 'blog/base.html'%}
+{%block content%}
+<body>
+    <div class="welcome-container">
+        <div class="glass-box">
+            <h1>Welcome to Our Website</h1>
+            <p>Your journey starts here.</p>
+            <a href="{% url 'blog:login' %}" class="btn">Login</a>
+        </div>
+    </div>
+</body>
+{% endblock %}
